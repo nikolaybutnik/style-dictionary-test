@@ -1,0 +1,114 @@
+{
+  "color": {
+    "color": {
+      "primary": {
+        "description": "Primary brand color.",
+        "type": "color",
+        "value": "#2a5eadff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:e64f1f886f8d119493d760e604479b0d969e0066,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "medium-grey": {
+        "description": "Medium variation of grey color.",
+        "type": "color",
+        "value": "#c4c4c4ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:feabc61d9f4eb5c3f72ea646605b440e90e278f5,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "secondary": {
+        "description": "Secondary brand color.",
+        "type": "color",
+        "value": "#ad7b18ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:167f5853c20886c45a46ce0b2b52d2340c9f3737,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "primary-light": {
+        "description": "Light variation of primary brand color.",
+        "type": "color",
+        "value": "#70a9ffff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:6fbfb24e83cb5f4cb089b4810d4df2d55305b7ad,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "primary-alt": {
+        "description": "Alternative variation of primary brand color.",
+        "type": "color",
+        "value": "#5597faff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:fb2007d460b3680591862f60130760e619266c25,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "secondary-light": {
+        "description": "Light variation of secondary brand color.",
+        "type": "color",
+        "value": "#fac355ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:8aa270bc76557ad542f675ffafbd771bec606455,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "dark-grey": {
+        "description": "Dark variation of grey color.",
+        "type": "color",
+        "value": "#898989ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:ee1a9d084405f42cae760a80803868288515ca8e,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "light-grey": {
+        "description": "Light variation of grey color.",
+        "type": "color",
+        "value": "#dfdfdfff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:e798931d33513e57ac019df994379ae8b6074320,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "darkest-grey": {
+        "description": "Darkest variation of gray color.",
+        "type": "color",
+        "value": "#3a3a3aff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:c06613f480d0d380a32fe1ceb5083ee55e95bf1d,",
+            "exportKey": "color"
+          }
+        }
+      }
+    }
+  }
+}
