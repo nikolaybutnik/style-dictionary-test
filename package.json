@@ -1,0 +1,15 @@
+{
+  "name": "design-tokens-poc",
+  "version": "1.0.0",
+  "description": "Proof of concept for automating design tokens transformation from Figma to brand sites",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikolay Butnik (nbutnik@tmg.io)",
+  "license": "ISC",
+  "dependencies": {
+    "style-dictionary": "^3.7.1"
+  }
+}
