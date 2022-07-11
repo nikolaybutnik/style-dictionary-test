@@ -29,10 +29,31 @@ StyleDictionary.registerTransform({
   },
 })
 
+StyleDictionary.registerTransform({
+  name: 'custom/sizes',
+  type: 'name',
+  matcher: (token) => token.attributes.category === 'sizes',
+  transformer: (token) => {
+    const sizeValues = {
+      8: 'xxs',
+      16: 'xs',
+      24: 's',
+      32: 'm',
+      40: 'l',
+      64: 'xl',
+      128: 'xxl',
+    }
+    return `sizes-${sizeValues[token.original.value]}`
+  },
+})
+
 // Then add the transform to transformGroup
 StyleDictionary.registerTransformGroup({
   name: 'less', // name of transformGroup in config
-  transforms: StyleDictionary.transformGroup['less'].concat(['size/px']),
+  transforms: StyleDictionary.transformGroup['less'].concat([
+    'size/px',
+    'custom/sizes',
+  ]),
 })
 
 StyleDictionary.buildAllPlatforms()
